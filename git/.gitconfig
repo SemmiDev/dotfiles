@@ -1,0 +1,21 @@
+[user]
+	name = SemmiDev
+	email = sammidev@github.com
+[core]
+	editor = nvim
+	excludesfile = ~/.gitignore_global
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	unstage = reset HEAD --
+	last = log -1 HEAD
+[push]
+	default = current
+[pull]
+	rebase = true
+[color]
+	ui = auto
+[init]
+	defaultBranch = main

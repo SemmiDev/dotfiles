@@ -1,0 +1,14 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Network Trash Folder
+Temporary Items
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+node_modules/
+vendor/
+.env
+.env.local
