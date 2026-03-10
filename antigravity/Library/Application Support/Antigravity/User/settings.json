@@ -1,7 +1,31 @@
 {
-    "editor.fontSize": 14,
-    "editor.fontFamily": "'JetBrains Mono', 'Menlo', 'Monaco', 'Courier New', monospace",
-    "editor.lineNumbers": "on",
-    "workbench.colorTheme": "Default Dark Modern",
-    "antigravity.agent.autoExecute": false
+  // 🎨 VISUAL & ESTETIKA (Antigravity Optimized)
+  "editor.fontFamily": "'Geist Mono', 'JetBrains Mono', 'Fira Code', monospace",
+  "editor.stickyScroll.enabled": true,
+  "editor.lineNumbers": "on",
+  "workbench.tree.indent": 16,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.6,
+  "editor.tabSize": 4,
+  "editor.minimap.enabled": true,
+  "window.titleBarStyle": "native",
+  "workbench.editor.enablePreview": false,
+
+  // 🚀 SMOOTHNESS
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+
+  // 💾 FORMATTING
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // 🤖 ANTIGRAVITY SPECIFIC
+  "antigravity.agent.autoExecute": false,
+
+  // 🎨 THEME
+  "workbench.colorTheme": "Mayukai Mirage Gruvbox Darktooth",
+  "workbench.iconTheme": "bearded-icons"
 }

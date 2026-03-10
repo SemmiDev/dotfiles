@@ -1,13 +1,105 @@
 {
-    "editor.fontSize": 14,
-    "editor.fontFamily": "'JetBrains Mono', 'Menlo', 'Monaco', 'Courier New', monospace",
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.formatOnSave": true,
-    "editor.lineNumbers": "relative",
-    "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Default Dark Modern",
-    "terminal.integrated.fontFamily": "JetBrains Mono",
-    "window.titleBarStyle": "native",
-    "cursor.cpp.enabled": true
+  // 🎨 VISUAL & ESTETIKA (Lebih Rapi & Modern)
+  // ---
+  // Font / Editor Teks
+  "editor.fontFamily": "'Geist Mono', 'JetBrains Mono', 'Fira Code', monospace",
+  "editor.stickyScroll.enabled": true, // Konteks function/class menempel di atas saat scroll
+  "editor.lineNumbers": "relative", // Navigasi baris jauh lebih cepat & presisi
+  "workbench.tree.indent": 16, // Hierarki folder di sidebar lebih renggang dan rapi
+  "editor.cursorWidth": 2, // Kursor sedikit lebih tebal
+  "editor.fontSize": 15,
+  "editor.cursorStyle": "line",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.6, // Sedikit lebih tinggi agar tidak terlalu padat
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.rulers": [80, 120], // Garis panduan
+  "editor.renderLineHighlight": "line", // Lebih halus, hanya garis
+  "editor.renderWhitespace": "none", // Jaga kebersihan visual
+  "editor.wordWrap": "off", // Umumnya programmer lebih suka off
+  "editor.scrollBeyondLastLine": true, // Scroll melewati baris terakhir (kenyamanan)
+  "editor.minimap.enabled": true,
+  "window.zoomLevel": 0,
+  "window.titleBarStyle": "native", // 'native' kadang lebih smooth/cepat, tapi 'custom' juga keren
+  "window.commandCenter": true,
+  "workbench.statusBar.visible": true,
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.orientation": "vertical",
+  "workbench.editor.enablePreview": false, // Langsung buka file secara permanen
+
+  // 🚀 KECEPATAN & KELANCARAN (*Smoothness*)
+  // ---
+  // Animasi Editor
+  "editor.cursorBlinking": "phase", // 'phase' lebih elegan dari 'smooth'
+  "workbench.reduceMotion": "off", // Memastikan animasi UI berjalan maksimal tanpa dibatasi
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true, // *Smooth scroll* di sidebar
+  "terminal.integrated.smoothScrolling": true,
+
+  // Terminal
+  "terminal.integrated.fontFamily": "JetBrains Mono, Fira Code, monospace",
+  "terminal.integrated.fontSize": 14, // Sedikit kecil dari editor agar terasa beda
+  "terminal.integrated.lineHeight": 1.4,
+  "terminal.integrated.cursorBlinking": true,
+
+  // Bracket & Indent
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": true, // Tambah garis indentasi
+
+  // 💾 PENGELOLAAN FILE & FORMATTING
+  // ---
+  "files.autoSave": "onFocusChange", // Sangat membantu
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.trimTrailingWhitespace": true, // Membersihkan ruang kosong di akhir baris
+  "files.insertFinalNewline": true, // Pastikan baris terakhir kosong (best practice)
+  "explorer.compactFolders": false, // Tampilan folder tradisional (lebih jelas)
+  "explorer.confirmDelete": false, // Lebih cepat hapus
+  "explorer.confirmDragAndDrop": false,
+
+  // ✨ INTELLISENSE & FITUR KODE
+  // ---
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "editor.suggestSelection": "recentlyUsedByPrefix", // Lebih cerdas memilih suggestion
+  "editor.hover.delay": 300, // Sedikit lebih lama agar tidak mengganggu saat mengetik
+  "editor.lightbulb.enabled": "on",
+  "breadcrumbs.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit" // Otomatis merapikan & membuang import yang tidak terpakai
+  },
+
+  // 🔄 GIT
+  // ---
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  // 🧩 EKSTENSI
+  // ---
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true
+  },
+  "workbench.iconTheme": "bearded-icons",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Mayukai Mirage Gruvbox Darktooth",
+  "makefile.configureOnOpen": false
 }
