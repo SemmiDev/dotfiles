@@ -13,7 +13,17 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="/opt/homebrew/bin:$PATH"
 
-# Aliases
+# --- Integrations ---
+# Init Starship prompt
+eval "$(starship init zsh)"
+
+# Init Zoxide (smarter cd)
+eval "$(zoxide init zsh)"
+
+# Init FZF (fuzzy finder)
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# --- Aliases ---
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias ls='ls -G'

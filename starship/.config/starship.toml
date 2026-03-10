@@ -1,0 +1,39 @@
+# Starship Prompt Configuration
+
+# Add a blank line before the prompt
+add_newline = true
+
+# Character module settings
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+
+# Directory module settings
+[directory]
+truncation_length = 3
+truncation_symbol = "…/"
+
+# Git module settings
+[git_branch]
+symbol = " "
+
+[git_status]
+ahead = "⇡${count}"
+behind = "⇣${count}"
+modified = "!"
+untracked = "?"
+staged = "+"
+conflicted = "="
+deleted = "✘"
+
+# Node.js module settings
+[nodejs]
+symbol = " "
+
+# Python module settings
+[python]
+symbol = " "
+
+# Rust module settings
+[rust]
+symbol = " "
