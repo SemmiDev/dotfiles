@@ -1,0 +1,13 @@
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'JetBrains Mono', 'Menlo', 'Monaco', 'Courier New', monospace",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Default Dark Modern",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "window.titleBarStyle": "native",
+    "cursor.cpp.enabled": true
+}
