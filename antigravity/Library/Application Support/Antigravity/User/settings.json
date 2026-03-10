@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'JetBrains Mono', 'Menlo', 'Monaco', 'Courier New', monospace",
+    "editor.lineNumbers": "on",
+    "workbench.colorTheme": "Default Dark Modern",
+    "antigravity.agent.autoExecute": false
+}
